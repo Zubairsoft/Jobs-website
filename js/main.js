@@ -1,3 +1,6 @@
+let show_sign_up=document.getElementById("show-sign");
+let hide_login=document.getElementById("login");
+// search by using jquery
 $(document).ready(function(){
 
     $("#search").on('keyup',function(){
@@ -8,4 +11,14 @@ $(document).ready(function(){
         })
 
     })
+    // show sing up page
+    $("#sign-up").on('click',function(){
+        $(show_sign_up).css("display","block");
+        $(hide_login).css("display","none");
+        
+    })
+
+
+
 })
+

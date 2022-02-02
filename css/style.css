@@ -8,7 +8,10 @@
 
 }
 header{
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    position:sticky;
+    z-index: 5;
+    top:0;
 }
 .nav-color{
 background-color: var(--main-color);
@@ -99,4 +102,38 @@ button a{
     text-decoration: none;
     color: #fff;
 }
+.presonal{
+    border-style: none;
 
+    color: var(--main-color);
+    padding: 5px;
+    margin-bottom: 3%;
+   
+    border-bottom: solid;
+}
+
+.qulification span{
+    font-size: 22px;
+}
+.border-bottomm{
+    border-bottom:2px solid var(--main-color);
+    
+
+}
+form button a:hover{
+    text-decoration: none;
+    color: var(--main-color);
+}
+form button i:hover{
+    text-decoration: none;
+    color: var(--main-color)!important;
+}
+#show-sign{
+    display: none;
+}
+#login{
+    display: block;
+}
+.hight{
+    height: 200px;
+}
