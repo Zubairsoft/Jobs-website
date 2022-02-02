@@ -17,6 +17,11 @@ $(document).ready(function(){
         $(hide_login).css("display","none");
         
     })
+    $("#show-exper").on('click',function(){
+        $("#exper-hide").css("display","none");
+
+
+    })
 
 
 
