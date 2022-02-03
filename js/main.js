@@ -25,5 +25,12 @@ $(document).ready(function(){
 
 
 
+
+
 })
+//download cv
+function download(){
+
+    window.open("../cive.pdf");
+}
 
